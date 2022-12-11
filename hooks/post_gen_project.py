@@ -4,6 +4,7 @@ import typing as t
 import shutil
 from pathlib import Path
 
+
 PROJECT_DIRECTORY = Path(".").absolute()
 
 
@@ -16,6 +17,10 @@ def remove(filepath: str) -> None:
         target.unlink()
 
 
-if __name__ == "__main__":
+def main() -> None:
     if "{{cookiecutter.open_source_license}}" == "Not open source":
         remove("LICENSE")
+
+
+if __name__ == "__main__":
+    main()
