@@ -5,8 +5,13 @@ I put the most convenient patterns in my opinion here
 
 ## How to use
 
-1) https://cookiecutter.readthedocs.io/en/stable/installation.html
-2)
-```py
-cookiecutter https://github.com/LEv145/My-module-template.git
-```
+1) Install `cookiecutter`: https://cookiecutter.readthedocs.io/en/stable/installation.html
+2) Clone template:
+- Main:
+    ```py
+    cookiecutter https://github.com/LEv145/My-module-template.git
+    ```
+- As project:
+    ```py
+    cookiecutter https://github.com/LEv145/My-module-template.git -c project
+    ```
