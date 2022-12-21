@@ -19,6 +19,9 @@ flake8-commas = {git = "https://github.com/LEv145/flake8-commas"}
 isort = "^5.10.1"
 pyproject-flake8 = "^6.0.0"
 
+[tool.poetry.scripts]
+{{cookiecutter.project_slug}} = "{{cookiecutter.project_slug}}.__main__:main"
+
 
 [build-system]
 requires = ["poetry-core"]
