@@ -42,7 +42,6 @@ lines_after_imports = 2
 src_paths = ["src/{{cookiecutter.project_slug}}", "tests"]
 
 [tool.pylint]
-extension-pkg-whitelist="pydantic"
 disable = [
     "unused-import",
 ]
